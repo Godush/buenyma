@@ -17,6 +17,7 @@
 					include 'inc/resources.php';
 					include 'inc/menu.php';
 					include 'inc/content.php';
+					include 'inc/shipconstruct.php';
 				?>
 			</div>
 		</div>

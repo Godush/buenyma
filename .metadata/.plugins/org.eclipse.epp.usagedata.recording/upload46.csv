@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.editor",1348930537121
+activated,editor,org.eclipse.wst.css.ui,1.0.400.v200904292008,"org.eclipse.wst.css.core.csssource.source",1348930538178
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1348930541375
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1348930543545
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930543907
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930564778
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1348930565458
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1348930677287
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1348930677511
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1348930678078
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1348930678463
+activated,editor,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.editor",1348930682419
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1348930684823
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1348930694023
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1348930694593
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930695286
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930695299
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1348930695302
+activated,editor,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.editor",1348930703778
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930710027
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930723910
+error,log,,,"Resource is out of sync with the file system: '/script/js/jquery.js'.",1348930726795
+activated,view,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.ui.explorer",1348930726795
+activated,editor,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.editor",1348930727080
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930758374

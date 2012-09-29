@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.xsl.core,1.0.0.v200905071815,"org.eclipse.wst.xsl.core",1348932337685
+os,sysinfo,,,"win32",1348932337688
+arch,sysinfo,,,"x86",1348932337688
+ws,sysinfo,,,"win32",1348932337688
+locale,sysinfo,,,"de_DE",1348932337688
+processors,sysinfo,,,"2",1348932337688
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1348932337688
+java.runtime.version,sysinfo,,,"1.7.0_05-b05",1348932337688
+java.specification.name,sysinfo,,,"Java Platform API Specification",1348932337688
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1348932337688
+java.specification.version,sysinfo,,,"1.7",1348932337688
+java.vendor,sysinfo,,,"Oracle Corporation",1348932337688
+java.version,sysinfo,,,"1.7.0_05",1348932337688
+java.vm.info,sysinfo,,,"mixed mode, sharing",1348932337688
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1348932337688
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1348932337688
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1348932337688
+java.vm.specification.version,sysinfo,,,"1.7",1348932337688
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1348932337688
+java.vm.version,sysinfo,,,"23.1-b03",1348932337688
+started,bundle,org.eclipse.wst.html.core,1.1.300.v200903120608,"org.eclipse.wst.html.core",1348932337742
+started,bundle,org.eclipse.wst.css.core,1.1.300.v200904131653,"org.eclipse.wst.css.core",1348932337908
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.301.v200805140415,"org.eclipse.wst.common.uriresolver",1348932337913
+started,bundle,org.eclipse.php.debug.core,2.1.0.v20090617-2341,"org.eclipse.php.debug.core",1348932338360
+started,bundle,org.eclipse.rse.ui,3.1.0.v200905272300,"org.eclipse.rse.ui",1348932342091

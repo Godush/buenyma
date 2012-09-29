@@ -1,0 +1,6 @@
+<div id="contentRoot">
+	<?php 
+		if(is_file("inc/".$_GET['page'].".php")) include $_GET['page']."/.php";
+		echo "inc/".$_GET['page'].".php";
+		?>
+</div>

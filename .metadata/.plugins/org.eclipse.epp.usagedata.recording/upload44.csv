@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930340152
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930340873
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1348930341614
+error,log,,,"Error in JSDT Core during AST creation",1348930341616
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930341784
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930341893
+activated,view,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.ui.explorer",1348930343066
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930345498
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930416214
+activated,editor,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.editor",1348930419073
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1348930424037
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930426677
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930428791
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930430369
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930431004
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.DebugLast",1348930431009
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1348930434934
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930435253
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930438913
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1348930443397
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930443702
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348930448625
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.wordNext",1348930450714
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.wordNext",1348930450882
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.select.wordNext",1348930451067

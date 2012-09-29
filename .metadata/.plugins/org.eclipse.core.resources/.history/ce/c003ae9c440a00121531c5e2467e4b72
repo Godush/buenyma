@@ -1,0 +1,10 @@
+$(document).ready(function() {
+	$("div#kontrolle").mouseover(function () {
+		$(this).find(".menuPoint").slideDown();
+	});
+	$("div#kontrolle").mouseout(function () {
+		//$(this).find(".menuPoint").slideUp();
+		alert("s");
+	});
+});
+

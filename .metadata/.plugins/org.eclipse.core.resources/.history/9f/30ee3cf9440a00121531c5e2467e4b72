@@ -1,0 +1,13 @@
+$(document).ready(function() {
+	$("div#kontrolle").mouseover(function () {
+		$(this).find(".menuPoint").slideDown();
+	});
+	$("div#kontrolle").mouseleave(function () {
+		//$(this).find(".menuPoint").slideUp();
+		alert("s");
+	});
+});
+
+$("div#kontrolle").ready(function(){
+	alert("wee");
+});

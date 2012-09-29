@@ -1,0 +1,15 @@
+/*$(document).ready(function() {
+	$("div#kontrolle").mouseover(function () {
+		$(this).find(".menuPoint").slideDown();
+	});
+	$("div#kontrolle").mouseleave(function () {
+		//$(this).find(".menuPoint").slideUp();
+		alert("s");
+	});
+});
+*/
+$(document).ready(function() {
+	$("div#kontrolle").hover(function(){
+		alert("wee");
+	});
+});

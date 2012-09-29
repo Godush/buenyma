@@ -1,0 +1,14 @@
+$(document).ready(function() {
+	$("div#kontrolle").mouseover(function () {
+		$(this).find(".menuPoint").slideDown();
+	});
+	$("div#kontrolle").mouseleave(function () {
+		//$(this).find(".menuPoint").slideUp();
+		alert("s");
+	});
+});
+
+$(window).click(function {
+		alert("sefe");
+	}
+);

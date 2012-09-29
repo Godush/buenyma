@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+div#root {
+	width:100%;	
+}
+div#center {
+	width:500px;
+	height:400px;
+	background-color:green;
+	margin:0 auto;
+}

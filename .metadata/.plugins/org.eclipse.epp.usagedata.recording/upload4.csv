@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.specification.version,sysinfo,,,"1.7",1348924725518
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1348924725518
+java.vm.version,sysinfo,,,"23.1-b03",1348924725518
+started,bundle,org.eclipse.php.debug.core,2.1.0.v20090617-2341,"org.eclipse.php.debug.core",1348924725660
+activated,view,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.ui.explorer",1348924727108
+activated,view,org.eclipse.php.ui,2.1.0.v20090617-2341,"org.eclipse.php.ui.explorer",1348924727143
+closed,view,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.internal.introview",1348924727161
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348924732942
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348924763846
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.import",1348924763859
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.import",1348924763859
+started,bundle,org.eclipse.rse.services,3.1.0.v200906102345,"org.eclipse.rse.services",1348924764269
+started,bundle,org.eclipse.wst.validation,1.2.102.v200905201610,"org.eclipse.wst.validation",1348924764299
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.0.v200906080535,"org.eclipse.wst.common.project.facet.core",1348924764311
+started,bundle,org.eclipse.rse.core,3.1.0.v200905272300,"org.eclipse.rse.core",1348924764312
+started,bundle,org.eclipse.emf.common,2.5.0.v200906151043,"org.eclipse.emf.common",1348924764778
+started,bundle,org.eclipse.emf.ecore,2.5.0.v200906151043,"org.eclipse.emf.ecore",1348924764869
+error,log,,,"Project facet jst.web has not been defined. It is used in plugin org.eclipse.wst.jsdt.web.core.",1348924764911
+started,bundle,org.eclipse.emf.ecore.xmi,2.5.0.v200906151043,"org.eclipse.emf.ecore.xmi",1348924764915
+started,bundle,org.eclipse.jem.util,2.0.200.v200905140200,"org.eclipse.jem.util",1348924765036
+started,bundle,org.eclipse.wst.common.frameworks,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks",1348924765039
+started,bundle,org.eclipse.wst.wsi.ui,1.0.500.v200901141851,"org.eclipse.wst.wsi.ui",1348924765116
+started,bundle,org.eclipse.wst.xml.core,1.1.400.v200904300540,"org.eclipse.wst.xml.core",1348924765154
+started,bundle,org.eclipse.wst.dtd.core,1.1.300.v200904181727,"org.eclipse.wst.dtd.core",1348924765156
+started,bundle,org.eclipse.wst.html.ui,1.0.400.v200904292008,"org.eclipse.wst.html.ui",1348924765236

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1348924725511
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1348924725511
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1348924725512
+started,bundle,org.eclipse.wst.jsdt.core,1.0.200.v200905201910,"org.eclipse.wst.jsdt.core",1348924725512
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.100.v200809240707,"org.eclipse.wst.jsdt.manipulation",1348924725513
+started,bundle,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui",1348924725513
+started,bundle,org.eclipse.wst.sse.core,1.1.400.v200905141750,"org.eclipse.wst.sse.core",1348924725513
+started,bundle,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui",1348924725514
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1348924725514
+os,sysinfo,,,"win32",1348924725517
+arch,sysinfo,,,"x86",1348924725517
+ws,sysinfo,,,"win32",1348924725517
+locale,sysinfo,,,"de_DE",1348924725517
+processors,sysinfo,,,"2",1348924725518
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1348924725518
+java.runtime.version,sysinfo,,,"1.7.0_05-b05",1348924725518
+java.specification.name,sysinfo,,,"Java Platform API Specification",1348924725518
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1348924725518
+java.specification.version,sysinfo,,,"1.7",1348924725518
+java.vendor,sysinfo,,,"Oracle Corporation",1348924725518
+java.version,sysinfo,,,"1.7.0_05",1348924725518
+java.vm.info,sysinfo,,,"mixed mode, sharing",1348924725518
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1348924725518
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1348924725518
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1348924725518

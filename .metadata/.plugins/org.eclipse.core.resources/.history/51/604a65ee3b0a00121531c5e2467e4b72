@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+div#contentRoot {
+	position:relative;
+	width:100%;
+	height:inherit;
+	margin:0 auto;
+	background-color:blue;
+	margin-bottom:10px;
+}

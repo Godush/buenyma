@@ -1,0 +1,5 @@
+INDEX VERSION 1.121+F:\xampp\htdocs\buenyma\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3702587751.index
+1617968529.index
+2522905258.index
+928161470.index

@@ -8,7 +8,7 @@
 		<link href="css/content.css" rel="stylesheet" type="text/css">
 		
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/slider.js"></script>
+		<script type="text/javascript" src="js/menuSlider.js"></script>
 	</head>
 	<body>
 		<div id="root">

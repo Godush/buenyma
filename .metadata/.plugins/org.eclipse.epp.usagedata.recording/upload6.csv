@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,view,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.internal.introview",1348924963290
+activated,view,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.internal.introview",1348924963336
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.help.quickStartAction",1348924963352
+activated,editor,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui.CompilationUnitEditor",1348924964821
+closed,view,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.internal.introview",1348924964852
+started,bundle,org.eclipse.wst.server.core,1.1.101.v20090515,"org.eclipse.wst.server.core",1348924965149
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.jsdt.ui"".",1348924965165
+error,log,,,"Error in JSDT Core during AST creation",1348924965165
+started,bundle,org.eclipse.wst.server.ui,1.1.102.v20090515,"org.eclipse.wst.server.ui",1348924965180
+started,bundle,org.eclipse.php.debug.ui,2.1.0.v20090607-1526,"org.eclipse.php.debug.ui",1348924965290
+started,bundle,org.eclipse.php.server.ui,2.1.0.v20090610-1903,"org.eclipse.php.server.ui",1348924965321
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1348924965352
+started,bundle,org.eclipse.wst.common.emf,1.1.300.v200905060430,"org.eclipse.wst.common.emf",1348924965430
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.1.300.v200811200330,"org.eclipse.wst.common.emfworkbench.integration",1348924965430
+started,bundle,org.eclipse.wst.common.modulecore,1.1.300.v200904132230,"org.eclipse.wst.common.modulecore",1348924965508
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348924966602
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1348924972559
+started,bundle,org.eclipse.help.ui,3.4.0.v20090528,"org.eclipse.help.ui",1348924972575
+started,bundle,org.eclipse.ui.cheatsheets,3.3.200.v20090526,"org.eclipse.ui.cheatsheets",1348924972840
+started,bundle,org.eclipse.equinox.p2.ui,1.0.100.v20090527-1812,"org.eclipse.equinox.p2.ui",1348924977051
+started,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk",1348924977098
+started,bundle,org.eclipse.equinox.p2.metadata,1.0.100.v20090525,"org.eclipse.equinox.p2.metadata",1348924977161
+started,bundle,org.eclipse.equinox.security.ui,1.0.100.v20090520-1800,"org.eclipse.equinox.security.ui",1348924988158
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1348924990048
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.help.aboutAction",1348924990064

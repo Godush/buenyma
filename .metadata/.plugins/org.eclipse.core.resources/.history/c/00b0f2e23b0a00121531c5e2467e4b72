@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+div#menuRoot {
+	position:relative;
+	width:100%;
+	margin:0 auto;
+}
+div.menuCon {
+	position:relative;
+}
+div.menuTop {
+	position:relative;
+	float:left;
+	width:200px;
+	height:50px;
+	background-color:red;
+	text-align:center;
+}
+div.menuPointCon {
+	position:absolute;
+	top:inherit;
+	height:300px;
+	width:200px;
+}
+div.menuPoint {
+	position:relative;
+	width:200px;
+	height:50px;
+	background-color:red;
+	text-align:center;
+}
+div#kontrolle {
+	
+}
+div#krieg {
+	
+}
+div#diplomatie {
+	
+}
+div#kontrolleMenu {
+	left:0px;
+}
+div#kriegMenu {
+	left:200px;
+}
+div#diplomatieMenu {
+	left:400px;
+}

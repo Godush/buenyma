@@ -1,0 +1,6 @@
+$(document).hover(function() {
+	$("div#kontrolle").mouseenter(function () {
+		$(this).find(".menuPoint").slideDown();
+		alert("afwef");
+	});
+});

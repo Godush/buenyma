@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
-<window height="768" minimized="true" width="1024" x="75" y="75">
+<window height="768" width="1024" x="75" y="75">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -19,6 +19,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -34,13 +35,16 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.php.editor" name="game.php" partName="game.php" path="F:/xampp/htdocs/buenyma/script/game.php" title="game.php" tooltip="script/game.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/game.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="117" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="73" selectionLength="0" selectionOffset="539" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.php.editor" name="menu.php" partName="menu.php" path="F:/xampp/htdocs/buenyma/script/inc/menu.php" title="menu.php" tooltip="script/inc/menu.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/inc/menu.php"/>
@@ -56,19 +60,26 @@
 </editor>
 <editor id="org.eclipse.php.editor" name="research.php" partName="research.php" path="F:/xampp/htdocs/buenyma/script/inc/research.php" title="research.php" tooltip="script/inc/research.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/inc/research.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="259" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="resources.css" partName="resources.css" path="F:/xampp/htdocs/buenyma/script/css/resources.css" title="resources.css" tooltip="script/css/resources.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/css/resources.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="222" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.php.editor" name="resources.php" partName="resources.php" path="F:/xampp/htdocs/buenyma/script/inc/resources.php" title="resources.php" tooltip="script/inc/resources.php" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/inc/resources.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.css.core.csssource.source" name="research.css" partName="research.css" path="F:/xampp/htdocs/buenyma/script/css/research.css" title="research.css" tooltip="script/css/research.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/css/research.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="845" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.dltk.ui.TypeHierarchy" partName="Type Hierarchy"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (2 items)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
-<DESCENDING_FIELDS IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -208,6 +219,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/content.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/shipconstruct.php"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/research.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/script/css/resources.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/resources.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/script/css/research.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/research.php"/>
 </editors>
 <item historyLabel="game.php" index="0">
 <position info="not_deleted" x="588" y="0"/>
@@ -251,8 +266,26 @@
 <item historyLabel="research.php" index="4">
 <position/>
 </item>
-<item active="true" historyLabel="game.php" index="0">
+<item historyLabel="game.php" index="0">
 <position info="not_deleted" x="588" y="0"/>
+</item>
+<item historyLabel="resources.css" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="resources.php" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="resources.css" index="5">
+<position/>
+</item>
+<item historyLabel="research.css" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="research.php" index="8">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item active="true" historyLabel="game.php" index="0">
+<position info="not_deleted" x="117" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -271,6 +304,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="research.css" tooltip="script/css/research.css">
+<persistable path="/script/css/research.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="resources.php" tooltip="script/inc/resources.php">
+<persistable path="/script/inc/resources.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="resources.css" tooltip="script/css/resources.css">
+<persistable path="/script/css/resources.css"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" name="research.php" tooltip="script/inc/research.php">
 <persistable path="/script/inc/research.php"/>
 </file>

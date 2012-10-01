@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="33" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="75" y="75">
+<window height="884" width="1153" x="75" y="75">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -12,13 +12,14 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.css.core.csssource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.php.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -26,8 +27,15 @@
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1348932336137" focus="true" label="Workspace - PHP">
 <editors>
-<editorArea activeWorkbook="DefaultEditorWorkbook">
-<info part="DefaultEditorWorkbook">
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@e53f9f">
+<info part="org.eclipse.ui.internal.EditorStack@e53f9f">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="DefaultEditorWorkbook" ratio="0.55105793" ratioLeft="599" ratioRight="488" relationship="2" relative="org.eclipse.ui.internal.EditorStack@e53f9f">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -38,17 +46,14 @@
 <part id="5"/>
 <part id="6"/>
 <part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="game.php" partName="game.php" path="F:/xampp/htdocs/buenyma/script/game.php" title="game.php" tooltip="script/game.php" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.php.editor" name="game.php" partName="game.php" path="F:/xampp/htdocs/buenyma/script/game.php" title="game.php" tooltip="script/game.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/game.php"/>
 <editorState selectionHorizontalPixel="73" selectionLength="0" selectionOffset="539" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.php.editor" name="menu.php" partName="menu.php" path="F:/xampp/htdocs/buenyma/script/inc/menu.php" title="menu.php" tooltip="script/inc/menu.php" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/inc/menu.php"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="769" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.php.editor" name="content.php" partName="content.php" path="F:/xampp/htdocs/buenyma/script/inc/content.php" title="content.php" tooltip="script/inc/content.php" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/inc/content.php"/>
@@ -73,6 +78,18 @@
 <editor id="org.eclipse.wst.css.core.csssource.source" name="research.css" partName="research.css" path="F:/xampp/htdocs/buenyma/script/css/research.css" title="research.css" tooltip="script/css/research.css" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/css/research.css"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="845" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="research.js" partName="research.js" path="F:/xampp/htdocs/buenyma/script/js/research.js" title="research.js" tooltip="script/js/research.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/js/research.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor focus="true" id="org.eclipse.wst.css.core.csssource.source" name="menu.css" partName="menu.css" path="F:/xampp/htdocs/buenyma/script/css/menu.css" title="menu.css" tooltip="script/css/menu.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/css/menu.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="313" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.php.editor" name="menu.php" partName="menu.php" path="F:/xampp/htdocs/buenyma/script/inc/menu.php" title="menu.php" tooltip="script/inc/menu.php" workbook="org.eclipse.ui.internal.EditorStack@e53f9f">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/script/inc/menu.php"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="906" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -162,8 +179,13 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
@@ -183,7 +205,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.22" ratioLeft="220" ratioRight="780" relationship="2" relative="topLeft"/>
+<info part="org.eclipse.ui.editorss" ratio="0.119779356" ratioLeft="152" ratioRight="1117" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -197,14 +219,12 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.75" ratioLeft="585" ratioRight="195" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="right" ratio="0.89866155" ratioLeft="940" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.php.ui.projectOutline" label="LabelNotFound"/>
 <page content="org.eclipse.php.ui.functions" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -214,78 +234,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/game.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/script/js/menuSlider.js"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/menu.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/content.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/shipconstruct.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/research.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/script/css/resources.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/resources.php"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/script/css/research.css"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.php.editor" path="/script/inc/research.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" path="/script/css/menu.css"/>
 </editors>
-<item historyLabel="game.php" index="0">
-<position info="not_deleted" x="588" y="0"/>
+<item historyLabel="menu.php" index="1">
+<position info="not_deleted" x="193" y="12"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="839" y="0"/>
 </item>
 <item historyLabel="menu.php" index="1">
-<position info="not_deleted" x="7" y="0"/>
+<position info="not_deleted" x="206" y="0"/>
 </item>
-<item historyLabel="game.php" index="0">
-<position info="not_deleted" x="588" y="0"/>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="883" y="0"/>
 </item>
-<item historyLabel="menu.php" index="1">
-<position info="not_deleted" x="769" y="0"/>
-</item>
-<item historyLabel="game.php" index="0">
-<position info="not_deleted" x="588" y="0"/>
-</item>
-<item historyLabel="content.php" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="content.php" index="2">
-<position info="not_deleted" x="68" y="0"/>
-</item>
-<item historyLabel="content.php" index="2">
-<position info="not_deleted" x="111" y="0"/>
-</item>
-<item historyLabel="shipconstruct.php" index="3">
+<item historyLabel="menuSlider.js" index="0">
 <position/>
 </item>
 <item historyLabel="menu.php" index="1">
-<position info="not_deleted" x="769" y="0"/>
-</item>
-<item historyLabel="content.php" index="2">
-<position info="not_deleted" x="111" y="0"/>
-</item>
-<item historyLabel="research.php" index="4">
 <position/>
 </item>
-<item historyLabel="shipconstruct.php" index="3">
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="162" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
 <position/>
 </item>
-<item historyLabel="research.php" index="4">
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="881" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
 <position/>
 </item>
-<item historyLabel="game.php" index="0">
-<position info="not_deleted" x="588" y="0"/>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="191" y="0"/>
 </item>
-<item historyLabel="resources.css" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="resources.php" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="resources.css" index="5">
+<item historyLabel="menu.php" index="1">
 <position/>
 </item>
-<item historyLabel="research.css" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
 </item>
-<item historyLabel="research.php" index="8">
-<position info="not_deleted" x="259" y="0"/>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
 </item>
-<item active="true" historyLabel="game.php" index="0">
-<position info="not_deleted" x="117" y="0"/>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menu.php" index="1">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="899" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="1134" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="73" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="1162" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menu.php" index="1">
+<position info="not_deleted" x="111" y="7"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="939" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="846" y="0"/>
+</item>
+<item historyLabel="menu.css" index="2">
+<position info="not_deleted" x="313" y="0"/>
+</item>
+<item historyLabel="menu.php" index="1">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menu.php" index="1">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="162" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menu.php" index="1">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="942" y="7"/>
+</item>
+<item historyLabel="menu.php" index="1">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item historyLabel="menu.php" index="1">
+<position info="not_deleted" x="906" y="0"/>
+</item>
+<item historyLabel="menuSlider.js" index="0">
+<position info="not_deleted" x="322" y="0"/>
+</item>
+<item active="true" historyLabel="menu.php" index="1">
+<position info="not_deleted" x="906" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -293,6 +394,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -304,6 +408,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="menu.css" tooltip="script/css/menu.css">
+<persistable path="/script/css/menu.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="menuSlider.js" tooltip="script/js/menuSlider.js">
+<persistable path="/script/js/menuSlider.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="research.js" tooltip="script/js/research.js">
+<persistable path="/script/js/research.js"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.css.core.csssource.source" name="research.css" tooltip="script/css/research.css">
 <persistable path="/script/css/research.css"/>
 </file>

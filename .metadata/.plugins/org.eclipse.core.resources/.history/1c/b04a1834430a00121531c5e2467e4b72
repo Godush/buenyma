@@ -1,7 +1,0 @@
-$(document).ready(function() {
-	$("div#kontrolle").mouseover(function () {
-		$(this).find(".menuPoint").slideDown();
-	}).mouseleave(function () {
-		$(this).find(".menuPoint").slideUp();
-	});
-});

@@ -1,8 +1,0 @@
-$(document).ready(function() {
-	$("div#kontrolle").mouseover(function () {
-		//alert("afwef");
-		$(this).find(".menuPoint").stop(true,true).slideDown();
-	}).mouseout(function() {
-		$(this).find(".menuPoint").stop(true,true).slideUp();
-	});
-});

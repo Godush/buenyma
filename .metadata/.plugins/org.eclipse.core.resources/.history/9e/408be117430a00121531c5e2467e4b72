@@ -1,6 +1,0 @@
-$(document).ready(function() {
-	$("div#kontrolle").mouseover(function () {
-		alert("serf");
-		$(this).find(".menuPoint").slideDown();
-	});
-});

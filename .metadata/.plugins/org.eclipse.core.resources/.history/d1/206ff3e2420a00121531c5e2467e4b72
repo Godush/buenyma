@@ -1,6 +1,0 @@
-$(document).ready(function() {
-	$("div.menuCon").mouseenter(function () {
-		alert("serf");
-		$(this).find(".menuPoint").slideDown();
-	});
-});

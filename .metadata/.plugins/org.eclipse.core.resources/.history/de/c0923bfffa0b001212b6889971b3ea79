@@ -1,0 +1,37 @@
+/*$(document).ready(function() {
+	$("div#kontrolle").mouseover(function () {
+		$(this).find(".menuPoint").stop(true,true).slideDown();
+	});
+	$("div#kontrolle").mouseleave(function () {
+		$(this).find(".menuPoint").stop(true,true).fadeOut();
+	});
+});
+$(document).ready(function() {
+	$("div#krieg").mouseover(function () {
+		$(this).find(".menuPoint").stop(true,true).slideDown();
+	});
+	$("div#krieg").mouseleave(function () {
+		$(this).find(".menuPoint").stop(true,true).fadeOut();
+	});
+});
+$(document).ready(function() {
+	$("div#diplomatie").mouseover(function () {
+		$(this).find(".menuPoint").stop(true,true).slideDown();
+	});
+	$("div#diplomatie").mouseleave(function () {
+		$(this).find(".menuPoint").stop(true,true).fadeOut();
+	});
+});*/
+$(document).ready(function() {
+	$maxHeight=$("div.menuPointCon").height();
+	$("div.menuPointCon").css("height","0px");
+	$("div.menuCon").mouseover(function () {
+		//$(this).parent().children("div.menuPointCon").animate({"opacity":"show"},500);
+		$(this).children("div.menuPointCon").stop(true,true).animate(
+		{"height":""+maxHeight+"px","opacity":"show"},{duration:"slow"});
+	})
+	$("div.menuCon").mouseleave(function () {
+		$(this).children("div.menuPointCon").stop(true,false).animate(
+		{"height":"0px","opacity":"hide"},{duration:"slow"});
+	});
+});

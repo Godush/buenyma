@@ -1,5 +1,0 @@
-$(document).ready(function() {
-	$("div#kontrolle").mouseOVer(function () {
-		$(this).find(".menuPoint").slideDown();
-	});
-});

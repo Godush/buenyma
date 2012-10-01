@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<cache:CacheIndex xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:cache="http://eclipse.org/dltk/cache_model" environment="org.eclipse.dltk.core.environment.localEnvironment">
+  <entries path="F:/xampp/htdocs/buenyma/script/login.php" timestamp="1348932196182" lastAccessTime="1348932338831"/>
+  <entries path="F:/xampp/htdocs/buenyma/script/inc/resources.php" timestamp="1348932196160" lastAccessTime="1348932338830"/>
+  <entries path="F:/eclipse/plugins/org.eclipse.php.core_2.1.0.v20090617-2341/Resources/language/php5/PDO_OCI.php" timestamp="1245295998000" lastAccessTime="1348932338633"/>
+  <entries path="F:/eclipse/plugins/org.eclipse.php.core_2.1.0.v20090617-2341/Resources/language/php5/pdo_sqlite.php" timestamp="1245295998000" lastAccessTime="1348932338634"/>
+  <entries path="F:/eclipse/plugins/org.eclipse.php.core_2.1.0.v20090617-2341/Resources/language/php5/pdo_pgsql.php" timestamp="1245295998000" lastAccessTime="1348932338635"/>
+  <entries path="F:/eclipse/plugins/org.eclipse.php.core_2.1.0.v20090617-2341/Resources/language/php5/pdo_mysql.php" timestamp="1245295998000" lastAccessTime="1348932338636"/>
+</cache:CacheIndex>

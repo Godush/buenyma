@@ -1,5 +1,0 @@
-$(document).ready(function() {
-	$("div#kontrolle").click(function () {
-		$(this).chrildren("div.menuPoint").slideUp();
-	});
-});

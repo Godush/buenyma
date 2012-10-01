@@ -9,6 +9,9 @@
 		
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/menuSlider.js"></script>
+		
+				<link href="css/research.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/research.js"></script>
 	</head>
 	<body>
 		<div id="root">

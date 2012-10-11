@@ -1,7 +1,3 @@
-<!--
-	Nicht verändern
--->
-
 <div id="menuRoot">
 	<div style="position:absolute;z-index:1;">
 		<div class="menuCon" id="kontrolle">
@@ -23,8 +19,8 @@
 		<div class="menuCon" id="diplomatie">
 			<div class="menuTop">Diplomatie</div>
 			<div class="menuPointCon">
-				<div class="menuPoint">egesg</div>
-				<div class="menuPoint">waefwae</div>
+				<div class="menuPoint"><a href="?page=alliance">Allianz</a></div>
+				<div class="menuPoint"><a href="?page=trade">Handel</a></div>
 				<div class="menuPoint">awfwaef</div>
 			</div>
 		</div>	

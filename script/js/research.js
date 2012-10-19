@@ -1,3 +1,4 @@
 $(document).ready(function() {
-	bindInfo($(".resImg"));
+	bindInfo($("#one"),"lol");
+	bindInfo($("#two"),"hehe");
 });

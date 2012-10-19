@@ -20,18 +20,12 @@
 	top:0px;
 	left:0px;
 	display:none;
-	width:inherit;
-	height:30px;
-	margin:0 auto;
-	color:black;
-	background-color:red;
 }
 .trTextField {
 	position:relative;
 	float:left;
 	width:50%;
 	height:30px;
-	margin:0 auto;
 	background-color:red;
 }
 .trInputField {
@@ -39,20 +33,20 @@
 	float:left;
 	width:50%;
 	height:30px;
-	margin:0 auto;
+	border:0px;
 	background-color:green;
 }
 .trOuterConOutput {
 	position:relative;
+	clear:both;
 	display:none;
-	float:left;
 	width:100%;
+	margin:0 auto;
 	background-color:blue;
 }
 .trInnerConOutput{
 	position:relative;
 	width:80%;
-	height:20px;
 	margin:0 auto;
 	color:white;
 	background-color:green;

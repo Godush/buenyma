@@ -21,7 +21,7 @@
 
 <div class="trOuterConOutput" id="sellerOutput">
 	<div class="trInnerConOutput">
-		<table style="width:100%;display:block;float:left;">
+		<table style="background-color:red;width:100%;">
 			<tr>
 				<td style="width:30%">Name</td>
 				<td style="width:33%">Kosten</td>
@@ -37,7 +37,17 @@
 </div>
 <div class="trOuterConOutput" id="vendorOutput">
 	<div class="trInnerConOutput">
-		vendor
-		<div id="test" style="float:left;">test</div>
+		<table style="background-color:red;width:100%;">
+			<tr>
+				<td style="width:30%">Name</td>
+				<td style="width:33%">Kosten</td>
+				<td style="width:33%">Flugdauer</td>
+			</tr>
+			<tr>
+				<td style="width:30%">Klaus</td>
+				<td style="width:33%">100000</td>
+				<td style="width:33%">1:00 Stunden</td>
+			</tr>
+		</table>
 	</div>
 </div>

@@ -1,0 +1,1 @@
+<?php$return['check'] = true;echo json_encode($return);?>

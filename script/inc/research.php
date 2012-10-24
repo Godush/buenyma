@@ -1,38 +1,5 @@
-<div class="resOuterCon">
-	<div class="resInnerCon" id="res1">
-		<div class="resImg" id="one">Oh shit</div>
-		<div class="resBuild">forschen</div>
-		<div class="resAbort">
-			abbrechen
-			<div class="pBG"></div><div class="pBar"></div>
-		</div>
-	</div>
-</div>
-<div class="resOuterCon">
-	<div class="resInnerCon">
-		<div class="resImg" id="two">Oh shit</div>
-		<div class="resBuild">forschen</div>
-		<div class="resAbort">abbrechen</div>
-	</div>
-</div>
-<div class="resOuterCon">
-	<div class="resInnerCon">
-		<div class="resImg">Oh shit</div>
-		<div class="resBuild">forschen</div>
-		<div class="resAbort">abbrechen</div>
-	</div>
-</div>
-<div class="resOuterCon">
-	<div class="resInnerCon">
-		<div class="resImg">Oh shit</div>
-		<div class="resBuild">forschen</div>
-		<div class="resAbort">abbrechen</div>
-	</div>
-</div>
-<div class="resOuterCon">
-	<div class="resInnerCon">
-		<div class="resImg">Oh shit</div>
-		<div class="resBuild">forschen</div>
-		<div class="resAbort">abbrechen</div>
-	</div>
-</div>
+<script>
+setRes("one","d","w","g","haha",null,null);
+setRes("two","a","b","c","lol",<?php echo time()-10; ?>,<?php echo time()+10; ?>);
+setRes("23342","af","b","c","lol",<?php echo time()-10; ?>,<?php echo time()+10; ?>);
+</script>

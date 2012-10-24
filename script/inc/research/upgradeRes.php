@@ -1,0 +1,1 @@
+<?php$return['timeOnBuild'] = time();$return['timeOnFinish'] = time()+10;echo json_encode($return);?>

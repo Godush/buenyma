@@ -1,0 +1,1 @@
+<?php$return['id'] = $_POST['id'];$return['img'] = "neu";$return['buildTxt'] = "neu2";$return['abortTxt'] = "neu3";$return['info'] = "neu4";$return['timeOnBuild'] = time();$return['timeOnFinish'] = time()+10;echo json_encode($return);?>

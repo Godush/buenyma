@@ -34,6 +34,8 @@
 	width:50%;
 	height:30px;
 	border:0px;
+	padding:0px;
+
 	background-color:green;
 }
 .trOuterConOutput {
@@ -42,6 +44,7 @@
 	display:none;
 	width:100%;
 	margin:0 auto;
+	margin-bottom:10px;
 	background-color:blue;
 }
 .trInnerConOutput{

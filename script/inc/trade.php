@@ -4,7 +4,7 @@
 			<div class="trTextField">Menge</div><input type="text" class="trInputField" id="bAmount" onkeyup="getOffer()">
 			<div class="trTextField">Res geg.</div><select class="trInputField" id="bResGiven" onchange="getOffer()"><><option>Baustoff</option><option>Credits</option><option>Antimaterie</option></select>
 			<div class="trTextField">Res gew.</div><select class="trInputField" id="bResWanted" onchange="getOffer()"><><option>Baustoff</option><option>Credits</option><option>Antimaterie</option></select>
-			<div class="trTextField">Max Dist. (h)</div><input type="text" class="trInputField" id="bDist" onkeyup="getOffer()">
+			<div class="trTextField">Max Dist. (Lichtjahre)</div><input type="text" class="trInputField" id="bDist" onkeyup="getOffer()">
 		</div>
 	</div>
 </div>

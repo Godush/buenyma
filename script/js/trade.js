@@ -25,19 +25,20 @@ function setVendor() {
 function getVendor() {
 	$.ajax({
 		type:'POST',
-		url:'inc/trade/getOffer.php',
+		url:'inc/trade/getVendor.php',
 		dataType:'json',
 		data: {
 			id : 0
 		},
 		success : function(data) {
-			$("#buyerOutput").find(".tEntry").remove();
+			$("#vendorOutput").find("tbody").children().remove();
+			if(data.length>0) $("#vendorOutput").css("display","block");
 			for(var i=0;i<data.length;i++) {
-				$("#buyerOutput").find("tbody").append('\
-					<tr class="tEntry">\
+				$("#vendorOutput").find("tbody").append('\
+					<tr>\
 						<td style="width:34%">'+data[i].amount+'</td>\
 						<td style="width:33%">'+data[i].amount+'(M):'+data[i].price+'(A)</td>\
-						<td style="width:33%">'+data[i].duration+' Sekunden</td>\
+						<td style="width:33%">'+data[i].status+'</td>\
 					</tr>\
 				');
 			}
@@ -56,10 +57,10 @@ function getOffer() {
 				id : 0
 			},
 			success : function(data) {
-				$("#buyerOutput").find(".tEntry").remove();
+				$("#buyerOutput").find("tbody").children().remove();
 				for(var i=0;i<data.length;i++) {
 					$("#buyerOutput").find("tbody").append('\
-						<tr class="tEntry">\
+						<tr>\
 							<td style="width:34%">'+data[i].amount+'</td>\
 							<td style="width:33%">'+data[i].amount+'(M):'+data[i].price+'(A)</td>\
 							<td style="width:33%">'+data[i].duration+' Sekunden</td>\

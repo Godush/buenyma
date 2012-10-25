@@ -8,8 +8,6 @@ function bindInfo(handle,content) {
 	}).mousemove(function(event) {
 		$("#info").find("#left").css("height",$("#info").find("#infoCon").height()-20);
 		$("#info").find("#right").css("height",$("#info").find("#infoCon").height()-20);
-		//$("#info").css("left",(event.pageX-$(document).scrollLeft()));
-		//$("#info").css("top",(event.pageY-$(document).scrollTop()+20));
 		$("#info").css("left",event.pageX-$("#info").width()/2);
 		$("#info").css("top",event.pageY+30);
 	}).mouseleave(function() {

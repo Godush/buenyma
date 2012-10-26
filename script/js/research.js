@@ -1,7 +1,24 @@
 var resData = new Array();
 $(document).ready(function() {
 	displayRes();
+	setInterval(function(){resUpdate()},100);
 });
+function resUpdate() {
+	//alert(resData.length);
+	for(var i=0;i<resData.length;i++) {
+	//alert(resData[i].timeOnBuild);
+		if(resData[i].timeOnBuild&&resData[i].timeOnFinish) {
+			var elapsedTime = -(resData[i].timeOnBuild*1000-(new Date().getTime()))/1000;
+			var totalTime = resData[i].timeOnFinish-resData[i].timeOnBuild;
+			var percent = elapsedTime/totalTime * 100;
+			if(percent>=100) {
+				$("#"+resData[i].id+"").find(".pBar").css("width","0%");
+				refreshRes(i);
+			}
+			else $("#"+resData[i].id+"").find(".pBar").css("width",""+percent+"%");
+		}
+	}
+}
 function setRes(id,img,buildTxt,abortTxt,info,timeOnBuild,timeOnFinish) {
 	var curArr;
 	var checkExist = false;
@@ -47,18 +64,6 @@ function initRes(i) {
 		resAbort(i);
 	});
 	refreshRes(i);
-	var timer = setInterval(function() {
-		if(resData[i].timeOnBuild&&resData[i].timeOnFinish) {
-			var elapsedTime = -(resData[i].timeOnBuild*1000-(new Date().getTime()))/1000;
-			var totalTime = resData[i].timeOnFinish-resData[i].timeOnBuild;
-			var percent = elapsedTime/totalTime * 100;
-			if(percent>=100) {
-				$("#"+resData[i].id+"").find(".pBar").css("width","0%");
-				refreshRes(i);
-			}
-			$("#"+resData[i].id+"").find(".pBar").css("width",""+percent+"%");
-		}
-	},50);
 }
 function refreshRes(i) {
 	$.ajax({

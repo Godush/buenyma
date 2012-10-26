@@ -16,12 +16,12 @@ $(document).ready(function() {
 	});
 	getFleets();
 	getShips();
-	setInterval(function(){update()},100);
+	setInterval(function(){fleetUpdate()},100);
 	$(".fSelect").click(function () {
 		alert("muss auf map verbinden");
 	});
 });
-function update() {
+function fleetUpdate() {
 	for(var i=0;i<fleetData.length;i++) {
 		//	alert($("#"+i+"").find("#fCp").text());
 		var now = new Date().getTime();
